@@ -1,5 +1,8 @@
-dj-database-url==0.4.1
-Django==1.9.8
+Django==1.10.1
 gunicorn==19.6.0
-psycopg2==2.6.2
 whitenoise==3.2
+bs4==0.0.1
+requests==2.11.1
+# Not using a database:
+# dj-database-url==0.4.1
+# psycopg2==2.6.2
