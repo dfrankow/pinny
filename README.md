@@ -8,6 +8,10 @@ To use this project, follow these steps:
 
 An example URL: `http://localhost:8000/slack/puppies`
 
+This is set up to be a slack slash command.
+See https://api.slack.com/slash-commands.
+It doesn't have token authentication, because the pin search is not secret.
+
 ## Deployment to Heroku
 
     $ heroku create
